@@ -23,7 +23,7 @@ export const AISpecifications = (
       const [guidelines] = args.constraints;
 
       const feedback = await aiService.generateFeedbackOnInputWithGuidelines(
-        value,
+        value, 
         guidelines,
       );
 
